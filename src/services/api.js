@@ -1,6 +1,7 @@
 import axios from 'axios';
+import { API_CONFIG } from '../constants/config';
 
-const BASE_URL = 'https://rubik.valyx.com';
+const BASE_URL = API_CONFIG.BASE_URL;
 
 // Create axios instance with base configuration
 const api = axios.create({
